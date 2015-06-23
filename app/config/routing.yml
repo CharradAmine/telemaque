@@ -1,3 +1,13 @@
+ajy_admin:
+    resource: "@AjyAdminBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+ajy_front:
+    resource: "@AjyFrontBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
